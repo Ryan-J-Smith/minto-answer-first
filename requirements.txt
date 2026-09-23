@@ -1,0 +1,6 @@
+# Python side: narration (Kokoro TTS), transcription check (faster-whisper), review tooling (Pillow).
+# Install into a venv:  uv venv .venv --python 3.10 && uv pip install --python .venv/bin/python -r requirements.txt
+kokoro>=0.9.4
+soundfile>=0.12
+faster-whisper>=1.0
+pillow>=10

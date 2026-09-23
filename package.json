@@ -1,0 +1,37 @@
+{
+  "name": "answer-first",
+  "version": "1.0.0",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "studio": "remotion studio --no-open",
+    "render": "remotion render AnswerFirst out/answer-first.mp4",
+    "still": "remotion still",
+    "narration": ".venv/bin/python scripts/narration/generate.py",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@remotion/captions": "4.0.527",
+    "@remotion/cli": "4.0.527",
+    "@remotion/google-fonts": "4.0.527",
+    "@remotion/media": "4.0.527",
+    "@remotion/media-utils": "4.0.527",
+    "@remotion/transitions": "4.0.527",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "remotion": "4.0.527",
+    "zod": "4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.2",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "typescript": "7.0.2"
+  },
+  "private": true
+}

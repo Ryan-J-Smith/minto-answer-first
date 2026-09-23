@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Answer First · How we made this</title>
+<meta name="description" content="A short film about Barbara Minto and the Pyramid Principle, built entirely in code, and the story of how it was made with an AI team." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Newsreader:ital,wght@0,500;0,600;1,400&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --bg: #171B21; --bg-glow: #2A313B; --surface: #20262E; --surface-deep: #1B2027;
+    --fg: #F1F3F5; --fg-soft: #AEB6C1; --fg-faint: rgba(241,243,245,.18); --rule: rgba(241,243,245,.42);
+    --accent: #F0B640; --accent-soft: rgba(240,182,64,.22);
+    --display: "Newsreader", Georgia, serif; --body: "Jost", "Futura", "Helvetica Neue", Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg); font-family: var(--body); line-height: 1.55;
+    background-image: radial-gradient(120% 90% at 88% 100%, var(--bg-glow) 0%, transparent 60%);
+    background-attachment: fixed;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 0 20px; }
+  header { padding: 56px 0 24px; text-align: center; }
+  .emblem { display: block; margin: 0 auto 18px; }
+  h1 { font-family: var(--display); font-weight: 600; font-size: clamp(44px, 8vw, 84px); line-height: 1; margin: 0 0 12px; letter-spacing: -0.01em; }
+  .sub { color: var(--fg-soft); font-size: 18px; letter-spacing: .04em; margin: 0; }
+  .frame { position: relative; margin: 32px auto 0; max-width: 720px; }
+  .frame::before { content: ""; position: absolute; inset: -14px; border: 1.5px solid var(--rule); pointer-events: none; }
+  .frame .tick { position: absolute; width: 26px; height: 26px; pointer-events: none; }
+  .frame .tick::before, .frame .tick::after { content: ""; position: absolute; background: var(--accent); }
+  .frame .tick::before { width: 26px; height: 3px; } .frame .tick::after { width: 3px; height: 26px; }
+  .frame .tl { left: -14px; top: -14px; } .frame .tr { right: -14px; top: -14px; transform: scaleX(-1); }
+  .frame .bl { left: -14px; bottom: -14px; transform: scaleY(-1); } .frame .br { right: -14px; bottom: -14px; transform: scale(-1); }
+  video { display: block; width: 100%; aspect-ratio: 1 / 1; background: #000; }
+  .meta { color: var(--fg-soft); font-size: 15px; text-align: center; margin: 28px 0 0; }
+  .rail { display: flex; justify-content: space-between; align-items: flex-start; margin: 64px 0 8px; position: relative; }
+  .rail::before { content: ""; position: absolute; left: 0; right: 0; top: 7px; height: 2px; background: var(--rule); }
+  .rail a { position: relative; color: var(--fg-soft); font-size: 12px; letter-spacing: .12em; text-transform: uppercase; padding-top: 24px; flex: 1; text-align: center; }
+  .rail a:first-child { text-align: left; } .rail a:last-child { text-align: right; }
+  .rail a::before { content: ""; position: absolute; top: 0; left: 50%; width: 12px; height: 12px; margin-left: -7px; border-radius: 50%; background: var(--bg); border: 2px solid var(--rule); }
+  .rail a:first-child::before { left: 0; margin-left: 0; } .rail a:last-child::before { left: auto; right: 0; }
+  .rail a:hover { color: var(--fg); text-decoration: none; } .rail a:hover::before { border-color: var(--accent); background: var(--accent); }
+  section { padding: 40px 0 8px; }
+  h2 { font-family: var(--display); font-weight: 600; font-size: 38px; margin: 0 0 8px; }
+  h3 { font-family: var(--display); font-weight: 500; font-size: 24px; margin: 36px 0 8px; }
+  p, li { color: var(--fg-soft); font-size: 17px; }
+  p strong, li strong { color: var(--fg); font-weight: 500; }
+  .lede { color: var(--fg); font-size: 20px; }
+  .steps { list-style: none; padding: 0; margin: 24px 0 0; counter-reset: s; }
+  .steps li { position: relative; padding: 0 0 28px 64px; counter-increment: s; }
+  .steps li::before { content: counter(s); position: absolute; left: 0; top: -6px; font-family: var(--display); font-weight: 600; font-size: 40px; color: var(--accent); line-height: 1; }
+  .steps li::after { content: ""; position: absolute; left: 14px; top: 44px; bottom: 8px; width: 1.5px; background: var(--fg-faint); }
+  .steps li:last-child::after { display: none; }
+  .steps h4 { margin: 0 0 6px; font-family: var(--body); font-weight: 600; font-size: 18px; color: var(--fg); }
+  .steps p { margin: 0 0 10px; }
+  figure { margin: 18px 0 0; }
+  figure img { display: block; width: 100%; border: 1.5px solid var(--fg-faint); }
+  figcaption { color: var(--fg-soft); font-size: 13px; letter-spacing: .06em; text-transform: uppercase; margin-top: 8px; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  @media (max-width: 640px) { .grid2 { grid-template-columns: 1fr; } }
+  table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 15.5px; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 12px 10px 0; border-bottom: 1px solid var(--fg-faint); color: var(--fg-soft); }
+  th { color: var(--fg); font-weight: 500; width: 190px; }
+  code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 14px; color: var(--fg); background: var(--surface); padding: 2px 6px; border-radius: 4px; }
+  pre { background: var(--surface-deep); border: 1px solid var(--fg-faint); padding: 14px 16px; overflow-x: auto; font-size: 14px; color: var(--fg); }
+  .quote { font-family: var(--display); font-style: italic; font-size: 26px; color: var(--fg); text-align: center; margin: 40px auto 6px; max-width: 640px; line-height: 1.35; }
+  .attrib { text-align: center; color: var(--fg-soft); font-size: 13px; letter-spacing: .14em; text-transform: uppercase; }
+  footer { border-top: 1px solid var(--fg-faint); margin-top: 56px; padding: 28px 0 56px; color: var(--fg-soft); font-size: 14px; text-align: center; }
+  .dinkus { display: block; width: 14px; height: 14px; margin: 44px auto; border: 2px solid var(--accent); transform: rotate(45deg); position: relative; }
+  .dinkus::after { content: ""; position: absolute; inset: 3px; background: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <svg class="emblem" width="92" height="57" viewBox="0 0 92 57" aria-hidden="true">
+      <rect x="27.6" y="1" width="36.8" height="16" fill="#F0B640" stroke="#F0B640" stroke-width="2"/>
+      <path d="M46 17 V 27 H 14.5 V 35.3 M46 27 H 46 V 35.3 M46 27 H 77.5 V 35.3" fill="none" stroke="#F1F3F5" stroke-width="1.5"/>
+      <rect x="1" y="35.3" width="27" height="21" fill="none" stroke="#F1F3F5" stroke-width="2"/>
+      <rect x="32.5" y="35.3" width="27" height="21" fill="none" stroke="#F1F3F5" stroke-width="2"/>
+      <rect x="64" y="35.3" width="27" height="21" fill="none" stroke="#F1F3F5" stroke-width="2"/>
+    </svg>
+    <h1>Answer First</h1>
+    <p class="sub">Barbara Minto and the Pyramid Principle</p>
+    <p class="sub" style="margin-top:8px"><a href="https://github.com/Ryan-J-Smith/minto-answer-first">Source on GitHub</a></p>
+    <div class="frame">
+      <span class="tick tl"></span><span class="tick tr"></span><span class="tick bl"></span><span class="tick br"></span>
+      <video controls playsinline preload="metadata" poster="media/thumbnail.png">
+        <source src="media/answer-first.mp4" type="video/mp4" />
+        Your browser can't play this video. <a href="media/answer-first.mp4">Download it</a> instead.
+      </video>
+    </div>
+    <p class="meta">3 min 50 s · square, made for the feed · captions burned in · no photographs, no stock, everything drawn from code</p>
+  </header>
+
+  <nav class="rail" aria-label="Sections">
+    <a href="#idea">The idea</a><a href="#process">How we made it</a><a href="#style">Style</a><a href="#tech">Technical</a><a href="#reuse">Reuse it</a>
+  </nav>
+
+  <section id="idea">
+    <h2>The idea</h2>
+    <p class="lede">The Pyramid Principle is one of the few ideas from management consulting that has genuinely lasted, and the woman who wrote it down is barely known outside the industry. This is a four-minute film that tries to fix that, and it was made almost entirely by an AI team working under a human director.</p>
+    <p>Three constraints shaped it. The film had to be <strong>built in code</strong>, so that scenes could be inserted, removed or re-ordered by editing a file rather than a timeline. It had to <strong>practise what it preaches</strong>: answer first, then three supports, then next steps. And it had to earn its place in a feed that autoplays muted, so every idea had to land as a picture, with the voice as reinforcement rather than the other way round.</p>
+    <p>The director set the goals, made every taste decision and vetted every claim. The coordinating agent (Claude Code, running the Fable 5.1 model) did the research, wrote and rewrote the script, built the pipeline, and ran a team of sub-agents for building, reviewing and polishing. What follows is the honest version of how that went, including the cut that got rejected.</p>
+  </section>
+
+  <span class="dinkus" aria-hidden="true"></span>
+
+  <section id="process">
+    <h2>How we made it</h2>
+    <p>Seven passes, in order. The full working documents, from the research dossier to every review, are in <a href="https://github.com/Ryan-J-Smith/minto-answer-first">the repository</a> under <a href="#docs">docs/process</a>.</p>
+    <ol class="steps">
+      <li>
+        <h4>Brief, then research</h4>
+        <p>We agreed the audience, the length ceiling, the square format, a text-to-speech narrator and the self-referential structure before writing a word. Then research: every biographical fact and every number went into a dossier with a confidence grade and a source, and anything the director could verify from experience was flagged for them rather than taken from a website.</p>
+      </li>
+      <li>
+        <h4>Script v1 and a first prototype that was rightly rejected</h4>
+        <p>The first script was written the way you'd write slide headlines: short fragments, one per beat. The first cut had one designed scene and eleven placeholders showing the narration as text, with a synthetic voice that ran straight through every full stop. The director's verdict was blunt and correct. The lesson stuck: never show scaffolding, and never let the words on screen be the words being spoken.</p>
+        <div class="grid2">
+          <figure><img src="media/early-paper-thesis.png" alt="The single designed scene of the first cut, on a paper-and-ink palette" loading="lazy" /><figcaption>First cut · the one designed scene</figcaption></figure>
+          <figure><img src="media/early-placeholder.png" alt="A placeholder scene from the first cut showing the narration as body text" loading="lazy" /><figcaption>First cut · a placeholder scene</figcaption></figure>
+        </div>
+      </li>
+      <li>
+        <h4>Rebuild with a team, adversarially</h4>
+        <p>Script v2 went to an adversarial editor and a panel of three simulated viewers (a product manager, a sceptical ex-consultant, a second-year analyst, all on a phone with the sound off) before any audio existed. Their notes produced v3. Then five builder agents each took two scenes, working from a storyboard that specified what is on screen during every beat, with one rule above all others: nothing on screen may repeat the narration except the captions. Each builder verified their scenes with rendered stills and contact sheets before reporting.</p>
+      </li>
+      <li>
+        <h4>Review the render, not the plan</h4>
+        <p>The first full render was reviewed by the viewer panel again and by a motion-designer critique, both working from contact sheets (one frame every two seconds). They returned twenty-five ranked fixes with timestamps: top-loaded frames with dead space beneath, static holds while the voice moved on, a caption box that fought the page, colliding labels. Every fix went back to the builder who owned the scene.</p>
+        <figure><img src="media/contact-sheet-2.png" alt="A contact sheet of the film, one frame every two seconds" loading="lazy" /><figcaption>How an AI reviews a film · one frame every two seconds</figcaption></figure>
+      </li>
+      <li>
+        <h4>The script, again, as speech</h4>
+        <p>The picture was now good and the words were not. Fragments that read fine on a page sounded like nobody when spoken. A "clean editor" pass read every line aloud, rewrote the whole script as full sentences with natural connectives, put pauses only where a speaker would breathe, and removed every claim that had drifted past its source. Two whole scenes were cut at this stage because they were clever rather than useful, and the three closing "next steps" were rewritten by the director.</p>
+      </li>
+      <li>
+        <h4>Style, decided from stills</h4>
+        <p>The first dark palette drifted too close to a well-known consultancy's look, sweeping line-work and all. Rather than argue about it in words, we rendered the same three frames under every candidate: four palettes, six accent colours, five type pairings, three title treatments. The director chose from the sheets. Nothing was fully rendered until the look was settled.</p>
+      </li>
+      <li>
+        <h4>Polish and land it</h4>
+        <p>The remaining passes were the kind a human editor would make: a section tracker instead of a slide counter, a numbered margin that actually occludes the line behind it, a bridge sentence so the hook doesn't jump from a buried recommendation to a woman at McKinsey without a promise in between. Four renders later, it was done.</p>
+      </li>
+    </ol>
+  </section>
+
+  <span class="dinkus" aria-hidden="true"></span>
+
+  <section id="style">
+    <h2>Style</h2>
+    <p>Slate rather than navy. One amber accent, used only where something is the answer. Newsreader for the big statements, Jost for everything else. No photographs, because none could be sourced with clear rights; the origin chapter is told entirely in type and motion. Every colour and typeface is a token, switchable by environment variable, which is what made the comparison sheets cheap.</p>
+    <div class="grid2">
+      <figure><img src="media/palette-options.png" alt="Four palette options rendered on the same frames" loading="lazy" /><figcaption>Palette options</figcaption></figure>
+      <figure><img src="media/accent-options.png" alt="Six accent colours rendered on the same frames" loading="lazy" /><figcaption>Accent options</figcaption></figure>
+      <figure><img src="media/type-options.png" alt="Five type pairings rendered on the same frames" loading="lazy" /><figcaption>Type pairings</figcaption></figure>
+      <figure><img src="media/title-options.png" alt="Three title treatments" loading="lazy" /><figcaption>Title treatments</figcaption></figure>
+    </div>
+  </section>
+
+  <span class="dinkus" aria-hidden="true"></span>
+
+  <section id="tech">
+    <h2>Technical details</h2>
+    <table>
+      <tr><th>Picture</th><td><a href="https://www.remotion.dev">Remotion 4</a>. One React component per scene, assembled in a transition series with short crossfades. A recursive pyramid layout with a camera transform drives every tree, push-in and morph. Rendered with Remotion's bundled headless Chrome and ffmpeg on WSL2.</td></tr>
+      <tr><th>Narration</th><td><a href="https://github.com/hexgrad/kokoro">Kokoro-82M</a>, an open-source text-to-speech model, voice <code>af_heart</code>. The script is stored as beats; each beat is synthesised separately and followed by a real silence, which is how the voice breathes. Kokoro's word timestamps drive both captions and animation cues. An inline phoneme override makes MECE sound the way Minto says it.</td></tr>
+      <tr><th>Checking the voice</th><td><a href="https://github.com/SYSTRAN/faster-whisper">faster-whisper</a> transcribes every generated clip and diffs it against the script, so a mangled word is caught without anyone listening.</td></tr>
+      <tr><th>Sync</th><td>Scene durations are derived from the audio manifest. Scenes key their motion to spoken words (<code>cue(scene, "phrase")</code>) or beat boundaries, so regenerating the narration never breaks sync and re-ordering scenes is a one-line edit.</td></tr>
+      <tr><th>Review tooling</th><td>A Python script renders one frame every N seconds into tiled contact sheets with timestamps. That, plus single stills, is how agents "watched" the film.</td></tr>
+      <tr><th>Orchestration</th><td>Claude Code with the Fable 5.1 model as coordinator; forked sub-agents as builders (one per pair of scenes), adversarial editor, simulated-viewer panel, motion-designer critic and clean editor. Builders own files; reviewers write ranked fix lists with timestamps.</td></tr>
+      <tr><th>Hardware</th><td>A desktop PC, Windows with WSL2, one consumer GPU for the TTS and transcription models.</td></tr>
+      <tr><th>Fonts</th><td>Newsreader and Jost via Google Fonts, loaded through Remotion's font package at render time.</td></tr>
+    </table>
+    <h3>The pipeline in one screen</h3>
+<pre>src/scenes.json ──▶ scripts/narration/generate.py ──▶ public/audio/&lt;scene&gt;.wav
+   (beats)                (Kokoro, edge-trim, pauses)      src/generated/narration.json
+                                                             (durations, word + beat timings)
+                                                                        │
+src/scenes/*.tsx  ◀── cue() / beatStart() ◀── src/narration.ts ◀────────┘
+        │
+src/Root.tsx ──▶ npx remotion render ──▶ out/answer-first.mp4
+        │
+scripts/review/contact_sheet.py ──▶ out/review/*-sheet-NN.png  (what the reviewers read)</pre>
+  </section>
+
+  <span class="dinkus" aria-hidden="true"></span>
+
+  <section id="reuse">
+    <h2>Reuse it</h2>
+    <p>The repository is meant as a starting point for the next film. Change the script in one JSON file, regenerate the narration, and the scenes re-time themselves. Swap the palette or the type with an environment variable. Add a scene by adding a file and one line.</p>
+    <p>If you are an AI agent picking this up, read <a href="https://github.com/Ryan-J-Smith/minto-answer-first/blob/main/AI-START-HERE.md"><code>AI-START-HERE.md</code></a> first. It is a note from the agent that made this to whoever makes the next one: what worked, what got rejected, and the questions to ask the human before starting.</p>
+    <h3 id="docs">The working documents</h3>
+    <p>Everything below is in <code>docs/process/</code> in the repository, lightly sanitised but otherwise as written during the work.</p>
+    <ul>
+      <li><a href="https://github.com/Ryan-J-Smith/minto-answer-first/blob/main/docs/process/00_project_brief.md">Project brief</a> · the constraints, and the things that were dropped and why</li>
+      <li><a href="https://github.com/Ryan-J-Smith/minto-answer-first/blob/main/docs/process/01_research_dossier.md">Research dossier</a> · every claim with a confidence grade and a source</li>
+      <li><a href="https://github.com/Ryan-J-Smith/minto-answer-first/blob/main/docs/process/02_script.md">Script v1</a>, <a href="https://github.com/Ryan-J-Smith/minto-answer-first/blob/main/docs/process/04_script_v2_storyboard.md">v2 storyboard</a>, <a href="https://github.com/Ryan-J-Smith/minto-answer-first/blob/main/docs/process/05_script_v3_final.md">v3</a>, <a href="https://github.com/Ryan-J-Smith/minto-answer-first/blob/main/docs/process/07_script_v4_spoken.md">v4 spoken</a>, <a href="https://github.com/Ryan-J-Smith/minto-answer-first/blob/main/docs/process/08_script_v6.md">v6 as recorded</a></li>
+      <li><a href="https://github.com/Ryan-J-Smith/minto-answer-first/blob/main/docs/process/reviews/editor_review_v2.md">Adversarial editor</a>, <a href="https://github.com/Ryan-J-Smith/minto-answer-first/blob/main/docs/process/reviews/viewer_review_v2.md">viewer panel on the script</a>, <a href="https://github.com/Ryan-J-Smith/minto-answer-first/blob/main/docs/process/reviews/viewer_review_render1.md">viewer panel on the render</a>, <a href="https://github.com/Ryan-J-Smith/minto-answer-first/blob/main/docs/process/reviews/designer_review_render1.md">designer critique</a>, <a href="https://github.com/Ryan-J-Smith/minto-answer-first/blob/main/docs/process/reviews/editor_review_v4_spoken.md">clean editor</a></li>
+      <li><a href="https://github.com/Ryan-J-Smith/minto-answer-first/blob/main/docs/process/06_build_brief.md">Build brief</a> given to the builder agents · <a href="https://github.com/Ryan-J-Smith/minto-answer-first/blob/main/docs/process/03_implementation_checklist.md">the checklist</a>, which is the honest timeline</li>
+    </ul>
+  </section>
+
+  <p class="quote">“The pyramid is a tool to help you find out what you think.”</p>
+  <p class="attrib">— Barbara Minto</p>
+
+  <footer>
+    Made with Claude Fable 5.1 by Ryan Smith · <a href="https://www.linkedin.com/in/ryanjsmithphd/">linkedin.com/in/ryanjsmithphd</a><br />
+    Sources: <a href="https://www.barbaraminto.com">barbaraminto.com</a> · McKinsey Alumni News, “MECE: I invented it, so I get to say how to pronounce it” · HBS Class of 1963, “If I Knew Then” · Wikipedia<br />
+    Read the book: <em>The Pyramid Principle</em>, Barbara Minto. Code is MIT; the film and its script are © 2026 Ryan Smith.
+  </footer>
+</div>
+</body>
+</html>

@@ -1,0 +1,3467 @@
+{
+  "voice": "af_heart",
+  "speed": 1.0,
+  "sampleRate": 24000,
+  "scenes": {
+    "01-hook": {
+      "file": "audio/01-hook.wav",
+      "durationSec": 27.398,
+      "textHash": "3e1158b0c883bda7",
+      "words": [
+        {
+          "text": "Somewhere",
+          "startMs": 150,
+          "endMs": 525
+        },
+        {
+          "text": "right",
+          "startMs": 525,
+          "endMs": 775
+        },
+        {
+          "text": "now,",
+          "startMs": 775,
+          "endMs": 1225
+        },
+        {
+          "text": "someone",
+          "startMs": 1362,
+          "endMs": 1638
+        },
+        {
+          "text": "is",
+          "startMs": 1638,
+          "endMs": 1775
+        },
+        {
+          "text": "presenting",
+          "startMs": 1775,
+          "endMs": 2275
+        },
+        {
+          "text": "a",
+          "startMs": 2275,
+          "endMs": 2375
+        },
+        {
+          "text": "deck.",
+          "startMs": 2375,
+          "endMs": 3125
+        },
+        {
+          "text": "The",
+          "startMs": 3250,
+          "endMs": 3350
+        },
+        {
+          "text": "recommendation",
+          "startMs": 3350,
+          "endMs": 4200
+        },
+        {
+          "text": "is",
+          "startMs": 4200,
+          "endMs": 4325
+        },
+        {
+          "text": "on",
+          "startMs": 4325,
+          "endMs": 4550
+        },
+        {
+          "text": "slide",
+          "startMs": 4550,
+          "endMs": 5000
+        },
+        {
+          "text": "thirty-one,",
+          "startMs": 5000,
+          "endMs": 5725
+        },
+        {
+          "text": "and",
+          "startMs": 5825,
+          "endMs": 5938
+        },
+        {
+          "text": "the",
+          "startMs": 5938,
+          "endMs": 6038
+        },
+        {
+          "text": "room",
+          "startMs": 6038,
+          "endMs": 6375
+        },
+        {
+          "text": "stopped",
+          "startMs": 6375,
+          "endMs": 6725
+        },
+        {
+          "text": "listening",
+          "startMs": 6725,
+          "endMs": 7150
+        },
+        {
+          "text": "around",
+          "startMs": 7150,
+          "endMs": 7475
+        },
+        {
+          "text": "slide",
+          "startMs": 7475,
+          "endMs": 7800
+        },
+        {
+          "text": "six.",
+          "startMs": 7800,
+          "endMs": 8425
+        },
+        {
+          "text": "There's",
+          "startMs": 9062,
+          "endMs": 9248
+        },
+        {
+          "text": "a",
+          "startMs": 9248,
+          "endMs": 9360
+        },
+        {
+          "text": "simple",
+          "startMs": 9360,
+          "endMs": 9760
+        },
+        {
+          "text": "fix,",
+          "startMs": 9760,
+          "endMs": 10360
+        },
+        {
+          "text": "and",
+          "startMs": 10460,
+          "endMs": 10572
+        },
+        {
+          "text": "the",
+          "startMs": 10572,
+          "endMs": 10672
+        },
+        {
+          "text": "story",
+          "startMs": 10672,
+          "endMs": 11035
+        },
+        {
+          "text": "behind",
+          "startMs": 11035,
+          "endMs": 11435
+        },
+        {
+          "text": "it",
+          "startMs": 11435,
+          "endMs": 11560
+        },
+        {
+          "text": "goes",
+          "startMs": 11560,
+          "endMs": 11810
+        },
+        {
+          "text": "back",
+          "startMs": 11810,
+          "endMs": 12148
+        },
+        {
+          "text": "sixty",
+          "startMs": 12148,
+          "endMs": 12510
+        },
+        {
+          "text": "years.",
+          "startMs": 12510,
+          "endMs": 13310
+        },
+        {
+          "text": "McKinsey",
+          "startMs": 13448,
+          "endMs": 14098
+        },
+        {
+          "text": "asked",
+          "startMs": 14098,
+          "endMs": 14422
+        },
+        {
+          "text": "a",
+          "startMs": 14422,
+          "endMs": 14485
+        },
+        {
+          "text": "consultant",
+          "startMs": 14485,
+          "endMs": 15110
+        },
+        {
+          "text": "to",
+          "startMs": 15110,
+          "endMs": 15235
+        },
+        {
+          "text": "sort",
+          "startMs": 15235,
+          "endMs": 15472
+        },
+        {
+          "text": "out",
+          "startMs": 15472,
+          "endMs": 15660
+        },
+        {
+          "text": "how",
+          "startMs": 15660,
+          "endMs": 15848
+        },
+        {
+          "text": "its",
+          "startMs": 15848,
+          "endMs": 16010
+        },
+        {
+          "text": "people",
+          "startMs": 16010,
+          "endMs": 16360
+        },
+        {
+          "text": "wrote.",
+          "startMs": 16360,
+          "endMs": 17010
+        },
+        {
+          "text": "She",
+          "startMs": 17148,
+          "endMs": 17285
+        },
+        {
+          "text": "came",
+          "startMs": 17285,
+          "endMs": 17560
+        },
+        {
+          "text": "back",
+          "startMs": 17560,
+          "endMs": 17848
+        },
+        {
+          "text": "with",
+          "startMs": 17848,
+          "endMs": 17972
+        },
+        {
+          "text": "a",
+          "startMs": 17972,
+          "endMs": 18035
+        },
+        {
+          "text": "way",
+          "startMs": 18035,
+          "endMs": 18210
+        },
+        {
+          "text": "to",
+          "startMs": 18210,
+          "endMs": 18348
+        },
+        {
+          "text": "fix",
+          "startMs": 18348,
+          "endMs": 18598
+        },
+        {
+          "text": "how",
+          "startMs": 18598,
+          "endMs": 18748
+        },
+        {
+          "text": "they",
+          "startMs": 18748,
+          "endMs": 18922
+        },
+        {
+          "text": "thought.",
+          "startMs": 18922,
+          "endMs": 19560
+        },
+        {
+          "text": "It",
+          "startMs": 19985,
+          "endMs": 20147
+        },
+        {
+          "text": "fits",
+          "startMs": 20147,
+          "endMs": 20373
+        },
+        {
+          "text": "on",
+          "startMs": 20373,
+          "endMs": 20473
+        },
+        {
+          "text": "a",
+          "startMs": 20473,
+          "endMs": 20573
+        },
+        {
+          "text": "single",
+          "startMs": 20573,
+          "endMs": 20960
+        },
+        {
+          "text": "page,",
+          "startMs": 20960,
+          "endMs": 21610
+        },
+        {
+          "text": "the",
+          "startMs": 21735,
+          "endMs": 21835
+        },
+        {
+          "text": "big",
+          "startMs": 21835,
+          "endMs": 22060
+        },
+        {
+          "text": "firms",
+          "startMs": 22060,
+          "endMs": 22410
+        },
+        {
+          "text": "still",
+          "startMs": 22410,
+          "endMs": 22685
+        },
+        {
+          "text": "teach",
+          "startMs": 22685,
+          "endMs": 22997
+        },
+        {
+          "text": "it,",
+          "startMs": 22997,
+          "endMs": 23435
+        },
+        {
+          "text": "and",
+          "startMs": 23535,
+          "endMs": 23673
+        },
+        {
+          "text": "outside",
+          "startMs": 23673,
+          "endMs": 24285
+        },
+        {
+          "text": "consulting",
+          "startMs": 24285,
+          "endMs": 24923
+        },
+        {
+          "text": "hardly",
+          "startMs": 24923,
+          "endMs": 25347
+        },
+        {
+          "text": "anyone",
+          "startMs": 25347,
+          "endMs": 25835
+        },
+        {
+          "text": "knows",
+          "startMs": 25835,
+          "endMs": 26073
+        },
+        {
+          "text": "her",
+          "startMs": 26073,
+          "endMs": 26185
+        },
+        {
+          "text": "name.",
+          "startMs": 26185,
+          "endMs": 26810
+        }
+      ],
+      "beats": [
+        {
+          "index": 0,
+          "text": "Somewhere right now, someone is presenting a deck. The recommendation is on slide thirty-one, and the room stopped listening around slide six.",
+          "startMs": 80,
+          "endMs": 8312,
+          "pauseSec": 0.75
+        },
+        {
+          "index": 1,
+          "text": "There's a simple fix, and the story behind it goes back sixty years. McKinsey asked a consultant to sort out how its people wrote. She came back with a way to fix how they thought.",
+          "startMs": 9062,
+          "endMs": 19385,
+          "pauseSec": 0.6
+        },
+        {
+          "index": 2,
+          "text": "It fits on a single page, the big firms still teach it, and outside consulting hardly anyone knows her name.",
+          "startMs": 19985,
+          "endMs": 26648,
+          "pauseSec": 0.75
+        }
+      ]
+    },
+    "03-thesis": {
+      "file": "audio/03-thesis.wav",
+      "durationSec": 18.667,
+      "textHash": "90b44d9aa566f472",
+      "words": [
+        {
+          "text": "This",
+          "startMs": 115,
+          "endMs": 378
+        },
+        {
+          "text": "is",
+          "startMs": 378,
+          "endMs": 565
+        },
+        {
+          "text": "the",
+          "startMs": 565,
+          "endMs": 702
+        },
+        {
+          "text": "Pyramid",
+          "startMs": 702,
+          "endMs": 1215
+        },
+        {
+          "text": "Principle.",
+          "startMs": 1215,
+          "endMs": 2090
+        },
+        {
+          "text": "It",
+          "startMs": 2190,
+          "endMs": 2328
+        },
+        {
+          "text": "has",
+          "startMs": 2328,
+          "endMs": 2490
+        },
+        {
+          "text": "been",
+          "startMs": 2490,
+          "endMs": 2702
+        },
+        {
+          "text": "taught,",
+          "startMs": 2702,
+          "endMs": 3265
+        },
+        {
+          "text": "almost",
+          "startMs": 3390,
+          "endMs": 3840
+        },
+        {
+          "text": "unchanged,",
+          "startMs": 3840,
+          "endMs": 4715
+        },
+        {
+          "text": "for",
+          "startMs": 4790,
+          "endMs": 4915
+        },
+        {
+          "text": "over",
+          "startMs": 4915,
+          "endMs": 5190
+        },
+        {
+          "text": "forty",
+          "startMs": 5190,
+          "endMs": 5540
+        },
+        {
+          "text": "years,",
+          "startMs": 5540,
+          "endMs": 6040
+        },
+        {
+          "text": "inside",
+          "startMs": 6152,
+          "endMs": 6628
+        },
+        {
+          "text": "the",
+          "startMs": 6628,
+          "endMs": 6715
+        },
+        {
+          "text": "big",
+          "startMs": 6715,
+          "endMs": 6940
+        },
+        {
+          "text": "consulting",
+          "startMs": 6940,
+          "endMs": 7540
+        },
+        {
+          "text": "firms",
+          "startMs": 7540,
+          "endMs": 8028
+        },
+        {
+          "text": "and",
+          "startMs": 8028,
+          "endMs": 8215
+        },
+        {
+          "text": "well",
+          "startMs": 8215,
+          "endMs": 8440
+        },
+        {
+          "text": "beyond",
+          "startMs": 8440,
+          "endMs": 8852
+        },
+        {
+          "text": "them.",
+          "startMs": 8852,
+          "endMs": 9365
+        },
+        {
+          "text": "The",
+          "startMs": 9759,
+          "endMs": 9834
+        },
+        {
+          "text": "basics",
+          "startMs": 9834,
+          "endMs": 10359
+        },
+        {
+          "text": "take",
+          "startMs": 10359,
+          "endMs": 10571
+        },
+        {
+          "text": "a",
+          "startMs": 10571,
+          "endMs": 10634
+        },
+        {
+          "text": "few",
+          "startMs": 10634,
+          "endMs": 10797
+        },
+        {
+          "text": "minutes",
+          "startMs": 10797,
+          "endMs": 11109
+        },
+        {
+          "text": "to",
+          "startMs": 11109,
+          "endMs": 11234
+        },
+        {
+          "text": "learn.",
+          "startMs": 11234,
+          "endMs": 11759
+        },
+        {
+          "text": "Getting",
+          "startMs": 11897,
+          "endMs": 12209
+        },
+        {
+          "text": "good",
+          "startMs": 12209,
+          "endMs": 12409
+        },
+        {
+          "text": "at",
+          "startMs": 12409,
+          "endMs": 12497
+        },
+        {
+          "text": "it",
+          "startMs": 12497,
+          "endMs": 12584
+        },
+        {
+          "text": "takes",
+          "startMs": 12584,
+          "endMs": 12884
+        },
+        {
+          "text": "years.",
+          "startMs": 12884,
+          "endMs": 13534
+        },
+        {
+          "text": "So",
+          "startMs": 14052,
+          "endMs": 14227
+        },
+        {
+          "text": "let's",
+          "startMs": 14227,
+          "endMs": 14502
+        },
+        {
+          "text": "look",
+          "startMs": 14502,
+          "endMs": 14677
+        },
+        {
+          "text": "at",
+          "startMs": 14677,
+          "endMs": 14765
+        },
+        {
+          "text": "where",
+          "startMs": 14765,
+          "endMs": 14889
+        },
+        {
+          "text": "it",
+          "startMs": 14889,
+          "endMs": 14977
+        },
+        {
+          "text": "came",
+          "startMs": 14977,
+          "endMs": 15252
+        },
+        {
+          "text": "from,",
+          "startMs": 15252,
+          "endMs": 15677
+        },
+        {
+          "text": "how",
+          "startMs": 15777,
+          "endMs": 15965
+        },
+        {
+          "text": "it",
+          "startMs": 15965,
+          "endMs": 16052
+        },
+        {
+          "text": "works,",
+          "startMs": 16052,
+          "endMs": 16602
+        },
+        {
+          "text": "and",
+          "startMs": 16677,
+          "endMs": 16802
+        },
+        {
+          "text": "how",
+          "startMs": 16802,
+          "endMs": 17015
+        },
+        {
+          "text": "far",
+          "startMs": 17015,
+          "endMs": 17215
+        },
+        {
+          "text": "it",
+          "startMs": 17215,
+          "endMs": 17289
+        },
+        {
+          "text": "has",
+          "startMs": 17289,
+          "endMs": 17402
+        },
+        {
+          "text": "spread.",
+          "startMs": 17402,
+          "endMs": 18077
+        }
+      ],
+      "beats": [
+        {
+          "index": 0,
+          "text": "This is the Pyramid Principle. It has been taught, almost unchanged, for over forty years, inside the big consulting firms and well beyond them.",
+          "startMs": 80,
+          "endMs": 9148,
+          "pauseSec": 0.6
+        },
+        {
+          "index": 1,
+          "text": "The basics take a few minutes to learn. Getting good at it takes years.",
+          "startMs": 9748,
+          "endMs": 13395,
+          "pauseSec": 0.6
+        },
+        {
+          "index": 2,
+          "text": "So let's look at where it came from, how it works, and how far it has spread.",
+          "startMs": 13995,
+          "endMs": 17917,
+          "pauseSec": 0.75
+        }
+      ]
+    },
+    "04-origin": {
+      "file": "audio/04-origin.wav",
+      "durationSec": 42.238,
+      "textHash": "a8c57210cbc1b42f",
+      "words": [
+        {
+          "text": "It",
+          "startMs": 80,
+          "endMs": 226
+        },
+        {
+          "text": "came",
+          "startMs": 226,
+          "endMs": 526
+        },
+        {
+          "text": "from",
+          "startMs": 526,
+          "endMs": 726
+        },
+        {
+          "text": "Barbara",
+          "startMs": 726,
+          "endMs": 1126
+        },
+        {
+          "text": "Minto.",
+          "startMs": 1126,
+          "endMs": 2076
+        },
+        {
+          "text": "She",
+          "startMs": 2214,
+          "endMs": 2338
+        },
+        {
+          "text": "went",
+          "startMs": 2338,
+          "endMs": 2488
+        },
+        {
+          "text": "to",
+          "startMs": 2488,
+          "endMs": 2601
+        },
+        {
+          "text": "Harvard",
+          "startMs": 2601,
+          "endMs": 3026
+        },
+        {
+          "text": "Business",
+          "startMs": 3026,
+          "endMs": 3401
+        },
+        {
+          "text": "School",
+          "startMs": 3401,
+          "endMs": 3776
+        },
+        {
+          "text": "without",
+          "startMs": 3776,
+          "endMs": 4088
+        },
+        {
+          "text": "a",
+          "startMs": 4088,
+          "endMs": 4164
+        },
+        {
+          "text": "college",
+          "startMs": 4164,
+          "endMs": 4601
+        },
+        {
+          "text": "degree,",
+          "startMs": 4601,
+          "endMs": 5276
+        },
+        {
+          "text": "and",
+          "startMs": 5401,
+          "endMs": 5538
+        },
+        {
+          "text": "graduated",
+          "startMs": 5538,
+          "endMs": 6251
+        },
+        {
+          "text": "in",
+          "startMs": 6251,
+          "endMs": 6376
+        },
+        {
+          "text": "1963",
+          "startMs": 6376,
+          "endMs": 7776
+        },
+        {
+          "text": "as",
+          "startMs": 7776,
+          "endMs": 7951
+        },
+        {
+          "text": "one",
+          "startMs": 7951,
+          "endMs": 8088
+        },
+        {
+          "text": "of",
+          "startMs": 8088,
+          "endMs": 8214
+        },
+        {
+          "text": "eight",
+          "startMs": 8214,
+          "endMs": 8476
+        },
+        {
+          "text": "women",
+          "startMs": 8476,
+          "endMs": 8876
+        },
+        {
+          "text": "in",
+          "startMs": 8876,
+          "endMs": 8964
+        },
+        {
+          "text": "a",
+          "startMs": 8964,
+          "endMs": 9026
+        },
+        {
+          "text": "class",
+          "startMs": 9026,
+          "endMs": 9364
+        },
+        {
+          "text": "of",
+          "startMs": 9364,
+          "endMs": 9488
+        },
+        {
+          "text": "six",
+          "startMs": 9488,
+          "endMs": 9714
+        },
+        {
+          "text": "hundred.",
+          "startMs": 9714,
+          "endMs": 10351
+        },
+        {
+          "text": "McKinsey",
+          "startMs": 10793,
+          "endMs": 11380
+        },
+        {
+          "text": "hired",
+          "startMs": 11380,
+          "endMs": 11780
+        },
+        {
+          "text": "her",
+          "startMs": 11780,
+          "endMs": 11918
+        },
+        {
+          "text": "that",
+          "startMs": 11918,
+          "endMs": 12168
+        },
+        {
+          "text": "same",
+          "startMs": 12168,
+          "endMs": 12443
+        },
+        {
+          "text": "year,",
+          "startMs": 12443,
+          "endMs": 12893
+        },
+        {
+          "text": "the",
+          "startMs": 12993,
+          "endMs": 13130
+        },
+        {
+          "text": "first",
+          "startMs": 13130,
+          "endMs": 13468
+        },
+        {
+          "text": "woman",
+          "startMs": 13468,
+          "endMs": 13768
+        },
+        {
+          "text": "MBA",
+          "startMs": 13768,
+          "endMs": 14243
+        },
+        {
+          "text": "the",
+          "startMs": 14243,
+          "endMs": 14380
+        },
+        {
+          "text": "firm",
+          "startMs": 14380,
+          "endMs": 14718
+        },
+        {
+          "text": "had",
+          "startMs": 14718,
+          "endMs": 14906
+        },
+        {
+          "text": "ever",
+          "startMs": 14906,
+          "endMs": 15168
+        },
+        {
+          "text": "taken",
+          "startMs": 15168,
+          "endMs": 15493
+        },
+        {
+          "text": "on.",
+          "startMs": 15493,
+          "endMs": 16118
+        },
+        {
+          "text": "Her",
+          "startMs": 16243,
+          "endMs": 16430
+        },
+        {
+          "text": "own",
+          "startMs": 16430,
+          "endMs": 16693
+        },
+        {
+          "text": "word",
+          "startMs": 16693,
+          "endMs": 16968
+        },
+        {
+          "text": "for",
+          "startMs": 16968,
+          "endMs": 17118
+        },
+        {
+          "text": "it",
+          "startMs": 17118,
+          "endMs": 17268
+        },
+        {
+          "text": "was",
+          "startMs": 17268,
+          "endMs": 17506
+        },
+        {
+          "text": "\"the",
+          "startMs": 17543,
+          "endMs": 17643
+        },
+        {
+          "text": "experiment.\"",
+          "startMs": 17643,
+          "endMs": 18593
+        },
+        {
+          "text": "In",
+          "startMs": 19234,
+          "endMs": 19334
+        },
+        {
+          "text": "1966",
+          "startMs": 19334,
+          "endMs": 20672
+        },
+        {
+          "text": "the",
+          "startMs": 20672,
+          "endMs": 20822
+        },
+        {
+          "text": "firm",
+          "startMs": 20822,
+          "endMs": 21172
+        },
+        {
+          "text": "sent",
+          "startMs": 21172,
+          "endMs": 21396
+        },
+        {
+          "text": "her",
+          "startMs": 21396,
+          "endMs": 21509
+        },
+        {
+          "text": "to",
+          "startMs": 21509,
+          "endMs": 21634
+        },
+        {
+          "text": "London",
+          "startMs": 21634,
+          "endMs": 22072
+        },
+        {
+          "text": "to",
+          "startMs": 22072,
+          "endMs": 22234
+        },
+        {
+          "text": "improve",
+          "startMs": 22234,
+          "endMs": 22772
+        },
+        {
+          "text": "its",
+          "startMs": 22772,
+          "endMs": 22959
+        },
+        {
+          "text": "consultants'",
+          "startMs": 22959,
+          "endMs": 23609
+        },
+        {
+          "text": "writing.",
+          "startMs": 23609,
+          "endMs": 24434
+        },
+        {
+          "text": "She",
+          "startMs": 24572,
+          "endMs": 24746
+        },
+        {
+          "text": "soon",
+          "startMs": 24746,
+          "endMs": 25034
+        },
+        {
+          "text": "decided",
+          "startMs": 25034,
+          "endMs": 25559
+        },
+        {
+          "text": "that",
+          "startMs": 25559,
+          "endMs": 25784
+        },
+        {
+          "text": "wasn't",
+          "startMs": 25784,
+          "endMs": 26072
+        },
+        {
+          "text": "the",
+          "startMs": 26072,
+          "endMs": 26172
+        },
+        {
+          "text": "real",
+          "startMs": 26172,
+          "endMs": 26459
+        },
+        {
+          "text": "problem.",
+          "startMs": 26459,
+          "endMs": 27309
+        },
+        {
+          "text": "In",
+          "startMs": 27446,
+          "endMs": 27584
+        },
+        {
+          "text": "her",
+          "startMs": 27584,
+          "endMs": 27759
+        },
+        {
+          "text": "words,",
+          "startMs": 27759,
+          "endMs": 28359
+        },
+        {
+          "text": "the",
+          "startMs": 28434,
+          "endMs": 28534
+        },
+        {
+          "text": "problem",
+          "startMs": 28534,
+          "endMs": 28984
+        },
+        {
+          "text": "was",
+          "startMs": 28984,
+          "endMs": 29159
+        },
+        {
+          "text": "the",
+          "startMs": 29159,
+          "endMs": 29296
+        },
+        {
+          "text": "thinking,",
+          "startMs": 29296,
+          "endMs": 29959
+        },
+        {
+          "text": "not",
+          "startMs": 30059,
+          "endMs": 30272
+        },
+        {
+          "text": "the",
+          "startMs": 30272,
+          "endMs": 30359
+        },
+        {
+          "text": "language.",
+          "startMs": 30359,
+          "endMs": 31134
+        },
+        {
+          "text": "When",
+          "startMs": 31754,
+          "endMs": 31859
+        },
+        {
+          "text": "the",
+          "startMs": 31859,
+          "endMs": 31947
+        },
+        {
+          "text": "1973",
+          "startMs": 31947,
+          "endMs": 33085
+        },
+        {
+          "text": "oil",
+          "startMs": 33085,
+          "endMs": 33347
+        },
+        {
+          "text": "crisis",
+          "startMs": 33347,
+          "endMs": 33885
+        },
+        {
+          "text": "cost",
+          "startMs": 33885,
+          "endMs": 34185
+        },
+        {
+          "text": "her",
+          "startMs": 34185,
+          "endMs": 34285
+        },
+        {
+          "text": "the",
+          "startMs": 34285,
+          "endMs": 34385
+        },
+        {
+          "text": "job,",
+          "startMs": 34385,
+          "endMs": 35122
+        },
+        {
+          "text": "she",
+          "startMs": 35259,
+          "endMs": 35422
+        },
+        {
+          "text": "stayed",
+          "startMs": 35422,
+          "endMs": 35735
+        },
+        {
+          "text": "in",
+          "startMs": 35735,
+          "endMs": 35822
+        },
+        {
+          "text": "London,",
+          "startMs": 35822,
+          "endMs": 36472
+        },
+        {
+          "text": "set",
+          "startMs": 36609,
+          "endMs": 36809
+        },
+        {
+          "text": "up",
+          "startMs": 36809,
+          "endMs": 36959
+        },
+        {
+          "text": "her",
+          "startMs": 36959,
+          "endMs": 37097
+        },
+        {
+          "text": "own",
+          "startMs": 37097,
+          "endMs": 37359
+        },
+        {
+          "text": "firm,",
+          "startMs": 37359,
+          "endMs": 37872
+        },
+        {
+          "text": "and",
+          "startMs": 37972,
+          "endMs": 38097
+        },
+        {
+          "text": "taught",
+          "startMs": 38097,
+          "endMs": 38347
+        },
+        {
+          "text": "the",
+          "startMs": 38347,
+          "endMs": 38447
+        },
+        {
+          "text": "method",
+          "startMs": 38447,
+          "endMs": 38847
+        },
+        {
+          "text": "to",
+          "startMs": 38847,
+          "endMs": 38935
+        },
+        {
+          "text": "the",
+          "startMs": 38935,
+          "endMs": 39022
+        },
+        {
+          "text": "rest",
+          "startMs": 39022,
+          "endMs": 39285
+        },
+        {
+          "text": "of",
+          "startMs": 39285,
+          "endMs": 39359
+        },
+        {
+          "text": "the",
+          "startMs": 39359,
+          "endMs": 39447
+        },
+        {
+          "text": "world.",
+          "startMs": 39447,
+          "endMs": 40097
+        },
+        {
+          "text": "She",
+          "startMs": 40447,
+          "endMs": 40597
+        },
+        {
+          "text": "still",
+          "startMs": 40597,
+          "endMs": 40847
+        },
+        {
+          "text": "does.",
+          "startMs": 40847,
+          "endMs": 41472
+        }
+      ],
+      "beats": [
+        {
+          "index": 0,
+          "text": "It came from Barbara Minto. She went to Harvard Business School without a college degree, and graduated in 1963 as one of eight women in a class of six hundred.",
+          "startMs": 80,
+          "endMs": 10177,
+          "pauseSec": 0.6
+        },
+        {
+          "index": 1,
+          "text": "McKinsey hired her that same year, the first woman MBA the firm had ever taken on. Her own word for it was \"the experiment.\"",
+          "startMs": 10777,
+          "endMs": 18452,
+          "pauseSec": 0.75
+        },
+        {
+          "index": 2,
+          "text": "In 1966 the firm sent her to London to improve its consultants' writing. She soon decided that wasn't the real problem. In her words, the problem was the thinking, not the language.",
+          "startMs": 19202,
+          "endMs": 31004,
+          "pauseSec": 0.75
+        },
+        {
+          "index": 3,
+          "text": "When the 1973 oil crisis cost her the job, she stayed in London, set up her own firm, and taught the method to the rest of the world.",
+          "startMs": 31754,
+          "endMs": 39938,
+          "pauseSec": 0.45
+        },
+        {
+          "index": 4,
+          "text": "She still does.",
+          "startMs": 40388,
+          "endMs": 41338,
+          "pauseSec": 0.9
+        }
+      ]
+    },
+    "05-rules": {
+      "file": "audio/05-rules.wav",
+      "durationSec": 34.432,
+      "textHash": "0c0fba0396ae254f",
+      "words": [
+        {
+          "text": "The",
+          "startMs": 94,
+          "endMs": 169
+        },
+        {
+          "text": "technique",
+          "startMs": 169,
+          "endMs": 556
+        },
+        {
+          "text": "itself",
+          "startMs": 556,
+          "endMs": 969
+        },
+        {
+          "text": "is",
+          "startMs": 969,
+          "endMs": 1119
+        },
+        {
+          "text": "one",
+          "startMs": 1119,
+          "endMs": 1356
+        },
+        {
+          "text": "shape",
+          "startMs": 1356,
+          "endMs": 1756
+        },
+        {
+          "text": "and",
+          "startMs": 1756,
+          "endMs": 1906
+        },
+        {
+          "text": "three",
+          "startMs": 1906,
+          "endMs": 2169
+        },
+        {
+          "text": "rules.",
+          "startMs": 2169,
+          "endMs": 2844
+        },
+        {
+          "text": "You",
+          "startMs": 3326,
+          "endMs": 3451
+        },
+        {
+          "text": "start",
+          "startMs": 3451,
+          "endMs": 3739
+        },
+        {
+          "text": "with",
+          "startMs": 3739,
+          "endMs": 3839
+        },
+        {
+          "text": "the",
+          "startMs": 3839,
+          "endMs": 3951
+        },
+        {
+          "text": "answer.",
+          "startMs": 3951,
+          "endMs": 4651
+        },
+        {
+          "text": "Not",
+          "startMs": 4789,
+          "endMs": 4989
+        },
+        {
+          "text": "the",
+          "startMs": 4989,
+          "endMs": 5076
+        },
+        {
+          "text": "background,",
+          "startMs": 5076,
+          "endMs": 5676
+        },
+        {
+          "text": "not",
+          "startMs": 5726,
+          "endMs": 5901
+        },
+        {
+          "text": "how",
+          "startMs": 5901,
+          "endMs": 6051
+        },
+        {
+          "text": "you",
+          "startMs": 6051,
+          "endMs": 6151
+        },
+        {
+          "text": "got",
+          "startMs": 6151,
+          "endMs": 6351
+        },
+        {
+          "text": "there.",
+          "startMs": 6351,
+          "endMs": 6751
+        },
+        {
+          "text": "The",
+          "startMs": 6851,
+          "endMs": 7001
+        },
+        {
+          "text": "answer.",
+          "startMs": 7001,
+          "endMs": 7776
+        },
+        {
+          "text": "Then",
+          "startMs": 7939,
+          "endMs": 8139
+        },
+        {
+          "text": "the",
+          "startMs": 8139,
+          "endMs": 8226
+        },
+        {
+          "text": "reasons,",
+          "startMs": 8226,
+          "endMs": 8801
+        },
+        {
+          "text": "and",
+          "startMs": 8876,
+          "endMs": 9001
+        },
+        {
+          "text": "under",
+          "startMs": 9001,
+          "endMs": 9251
+        },
+        {
+          "text": "those,",
+          "startMs": 9251,
+          "endMs": 9676
+        },
+        {
+          "text": "the",
+          "startMs": 9713,
+          "endMs": 9851
+        },
+        {
+          "text": "evidence.",
+          "startMs": 9851,
+          "endMs": 10651
+        },
+        {
+          "text": "Rule",
+          "startMs": 11184,
+          "endMs": 11459
+        },
+        {
+          "text": "one:",
+          "startMs": 11459,
+          "endMs": 11884
+        },
+        {
+          "text": "every",
+          "startMs": 11997,
+          "endMs": 12309
+        },
+        {
+          "text": "box",
+          "startMs": 12309,
+          "endMs": 12659
+        },
+        {
+          "text": "sums",
+          "startMs": 12659,
+          "endMs": 12897
+        },
+        {
+          "text": "up",
+          "startMs": 12897,
+          "endMs": 12997
+        },
+        {
+          "text": "the",
+          "startMs": 12997,
+          "endMs": 13084
+        },
+        {
+          "text": "boxes",
+          "startMs": 13084,
+          "endMs": 13559
+        },
+        {
+          "text": "below",
+          "startMs": 13559,
+          "endMs": 13909
+        },
+        {
+          "text": "it.",
+          "startMs": 13909,
+          "endMs": 14309
+        },
+        {
+          "text": "Rule",
+          "startMs": 14724,
+          "endMs": 15012
+        },
+        {
+          "text": "two:",
+          "startMs": 15012,
+          "endMs": 15424
+        },
+        {
+          "text": "each",
+          "startMs": 15549,
+          "endMs": 15774
+        },
+        {
+          "text": "level",
+          "startMs": 15774,
+          "endMs": 16074
+        },
+        {
+          "text": "answers",
+          "startMs": 16074,
+          "endMs": 16462
+        },
+        {
+          "text": "the",
+          "startMs": 16462,
+          "endMs": 16549
+        },
+        {
+          "text": "question",
+          "startMs": 16549,
+          "endMs": 16999
+        },
+        {
+          "text": "raised",
+          "startMs": 16999,
+          "endMs": 17349
+        },
+        {
+          "text": "by",
+          "startMs": 17349,
+          "endMs": 17486
+        },
+        {
+          "text": "the",
+          "startMs": 17486,
+          "endMs": 17574
+        },
+        {
+          "text": "one",
+          "startMs": 17574,
+          "endMs": 17712
+        },
+        {
+          "text": "above",
+          "startMs": 17712,
+          "endMs": 17999
+        },
+        {
+          "text": "it,",
+          "startMs": 17999,
+          "endMs": 18174
+        },
+        {
+          "text": "usually",
+          "startMs": 18262,
+          "endMs": 18774
+        },
+        {
+          "text": "\"why?\"",
+          "startMs": 18849,
+          "endMs": 19349
+        },
+        {
+          "text": "or",
+          "startMs": 19586,
+          "endMs": 19774
+        },
+        {
+          "text": "\"how?\"",
+          "startMs": 19849,
+          "endMs": 20349
+        },
+        {
+          "text": "Rule",
+          "startMs": 20771,
+          "endMs": 21033
+        },
+        {
+          "text": "three:",
+          "startMs": 21033,
+          "endMs": 21571
+        },
+        {
+          "text": "the",
+          "startMs": 21721,
+          "endMs": 21821
+        },
+        {
+          "text": "boxes",
+          "startMs": 21821,
+          "endMs": 22346
+        },
+        {
+          "text": "in",
+          "startMs": 22346,
+          "endMs": 22471
+        },
+        {
+          "text": "any",
+          "startMs": 22471,
+          "endMs": 22671
+        },
+        {
+          "text": "group",
+          "startMs": 22671,
+          "endMs": 22971
+        },
+        {
+          "text": "are",
+          "startMs": 22971,
+          "endMs": 23059
+        },
+        {
+          "text": "the",
+          "startMs": 23059,
+          "endMs": 23183
+        },
+        {
+          "text": "same",
+          "startMs": 23183,
+          "endMs": 23521
+        },
+        {
+          "text": "kind",
+          "startMs": 23521,
+          "endMs": 23733
+        },
+        {
+          "text": "of",
+          "startMs": 23733,
+          "endMs": 23821
+        },
+        {
+          "text": "thing,",
+          "startMs": 23821,
+          "endMs": 24321
+        },
+        {
+          "text": "in",
+          "startMs": 24421,
+          "endMs": 24508
+        },
+        {
+          "text": "a",
+          "startMs": 24508,
+          "endMs": 24609
+        },
+        {
+          "text": "sensible",
+          "startMs": 24609,
+          "endMs": 25096
+        },
+        {
+          "text": "order,",
+          "startMs": 25096,
+          "endMs": 25571
+        },
+        {
+          "text": "with",
+          "startMs": 25646,
+          "endMs": 25833
+        },
+        {
+          "text": "no",
+          "startMs": 25833,
+          "endMs": 26096
+        },
+        {
+          "text": "overlaps",
+          "startMs": 26096,
+          "endMs": 26721
+        },
+        {
+          "text": "and",
+          "startMs": 26721,
+          "endMs": 26846
+        },
+        {
+          "text": "no",
+          "startMs": 26846,
+          "endMs": 27046
+        },
+        {
+          "text": "gaps.",
+          "startMs": 27046,
+          "endMs": 27721
+        },
+        {
+          "text": "Minto",
+          "startMs": 27993,
+          "endMs": 28368
+        },
+        {
+          "text": "gave",
+          "startMs": 28368,
+          "endMs": 28593
+        },
+        {
+          "text": "that",
+          "startMs": 28593,
+          "endMs": 28818
+        },
+        {
+          "text": "last",
+          "startMs": 28818,
+          "endMs": 29093
+        },
+        {
+          "text": "test",
+          "startMs": 29093,
+          "endMs": 29355
+        },
+        {
+          "text": "a",
+          "startMs": 29355,
+          "endMs": 29405
+        },
+        {
+          "text": "name:",
+          "startMs": 29405,
+          "endMs": 29918
+        },
+        {
+          "text": "mutually",
+          "startMs": 30031,
+          "endMs": 30518
+        },
+        {
+          "text": "exclusive,",
+          "startMs": 30518,
+          "endMs": 31218
+        },
+        {
+          "text": "collectively",
+          "startMs": 31293,
+          "endMs": 31918
+        },
+        {
+          "text": "exhaustive.",
+          "startMs": 31918,
+          "endMs": 32868
+        },
+        {
+          "text": "MECE.",
+          "startMs": 33005,
+          "endMs": 33643
+        }
+      ],
+      "beats": [
+        {
+          "index": 0,
+          "text": "The technique itself is one shape and three rules.",
+          "startMs": 80,
+          "endMs": 2710,
+          "pauseSec": 0.6
+        },
+        {
+          "index": 1,
+          "text": "You start with the answer. Not the background, not how you got there. The answer. Then the reasons, and under those, the evidence.",
+          "startMs": 3310,
+          "endMs": 10529,
+          "pauseSec": 0.6
+        },
+        {
+          "index": 2,
+          "text": "Rule one: every box sums up the boxes below it.",
+          "startMs": 11129,
+          "endMs": 14163,
+          "pauseSec": 0.525
+        },
+        {
+          "index": 3,
+          "text": "Rule two: each level answers the question raised by the one above it, usually \"why?\" or \"how?\"",
+          "startMs": 14688,
+          "endMs": 20214,
+          "pauseSec": 0.525
+        },
+        {
+          "index": 4,
+          "text": "Rule three: the boxes in any group are the same kind of thing, in a sensible order, with no overlaps and no gaps.",
+          "startMs": 20739,
+          "endMs": 27581,
+          "pauseSec": 0.375
+        },
+        {
+          "index": 5,
+          "text": "Minto gave that last test a name: mutually exclusive, collectively exhaustive. MECE.",
+          "startMs": 27956,
+          "endMs": 33532,
+          "pauseSec": 0.9
+        }
+      ]
+    },
+    "06-recursion": {
+      "file": "audio/06-recursion.wav",
+      "durationSec": 24.382,
+      "textHash": "ac968cb77a84d206",
+      "words": [
+        {
+          "text": "And",
+          "startMs": 82,
+          "endMs": 232
+        },
+        {
+          "text": "here's",
+          "startMs": 232,
+          "endMs": 557
+        },
+        {
+          "text": "what",
+          "startMs": 557,
+          "endMs": 695
+        },
+        {
+          "text": "makes",
+          "startMs": 695,
+          "endMs": 945
+        },
+        {
+          "text": "it",
+          "startMs": 945,
+          "endMs": 1032
+        },
+        {
+          "text": "powerful:",
+          "startMs": 1032,
+          "endMs": 1832
+        },
+        {
+          "text": "every",
+          "startMs": 1969,
+          "endMs": 2282
+        },
+        {
+          "text": "box",
+          "startMs": 2282,
+          "endMs": 2657
+        },
+        {
+          "text": "is",
+          "startMs": 2657,
+          "endMs": 2795
+        },
+        {
+          "text": "the",
+          "startMs": 2795,
+          "endMs": 2882
+        },
+        {
+          "text": "top",
+          "startMs": 2882,
+          "endMs": 3145
+        },
+        {
+          "text": "of",
+          "startMs": 3145,
+          "endMs": 3219
+        },
+        {
+          "text": "its",
+          "startMs": 3219,
+          "endMs": 3395
+        },
+        {
+          "text": "own",
+          "startMs": 3395,
+          "endMs": 3682
+        },
+        {
+          "text": "pyramid.",
+          "startMs": 3682,
+          "endMs": 4432
+        },
+        {
+          "text": "Push",
+          "startMs": 4909,
+          "endMs": 5147
+        },
+        {
+          "text": "into",
+          "startMs": 5147,
+          "endMs": 5397
+        },
+        {
+          "text": "any",
+          "startMs": 5397,
+          "endMs": 5609
+        },
+        {
+          "text": "reason",
+          "startMs": 5609,
+          "endMs": 6059
+        },
+        {
+          "text": "and",
+          "startMs": 6059,
+          "endMs": 6171
+        },
+        {
+          "text": "you",
+          "startMs": 6171,
+          "endMs": 6284
+        },
+        {
+          "text": "find",
+          "startMs": 6284,
+          "endMs": 6521
+        },
+        {
+          "text": "the",
+          "startMs": 6521,
+          "endMs": 6621
+        },
+        {
+          "text": "same",
+          "startMs": 6621,
+          "endMs": 6971
+        },
+        {
+          "text": "shape",
+          "startMs": 6971,
+          "endMs": 7271
+        },
+        {
+          "text": "underneath:",
+          "startMs": 7271,
+          "endMs": 8084
+        },
+        {
+          "text": "a",
+          "startMs": 8221,
+          "endMs": 8347
+        },
+        {
+          "text": "claim,",
+          "startMs": 8347,
+          "endMs": 8934
+        },
+        {
+          "text": "held",
+          "startMs": 9009,
+          "endMs": 9247
+        },
+        {
+          "text": "up",
+          "startMs": 9247,
+          "endMs": 9434
+        },
+        {
+          "text": "by",
+          "startMs": 9434,
+          "endMs": 9609
+        },
+        {
+          "text": "evidence.",
+          "startMs": 9609,
+          "endMs": 10459
+        },
+        {
+          "text": "Push",
+          "startMs": 10597,
+          "endMs": 10884
+        },
+        {
+          "text": "again,",
+          "startMs": 10884,
+          "endMs": 11384
+        },
+        {
+          "text": "and",
+          "startMs": 11484,
+          "endMs": 11597
+        },
+        {
+          "text": "it's",
+          "startMs": 11597,
+          "endMs": 11784
+        },
+        {
+          "text": "the",
+          "startMs": 11784,
+          "endMs": 11921
+        },
+        {
+          "text": "same",
+          "startMs": 11921,
+          "endMs": 12184
+        },
+        {
+          "text": "again.",
+          "startMs": 12184,
+          "endMs": 12834
+        },
+        {
+          "text": "You",
+          "startMs": 13142,
+          "endMs": 13279
+        },
+        {
+          "text": "stop",
+          "startMs": 13279,
+          "endMs": 13655
+        },
+        {
+          "text": "when",
+          "startMs": 13655,
+          "endMs": 13792
+        },
+        {
+          "text": "you",
+          "startMs": 13792,
+          "endMs": 13917
+        },
+        {
+          "text": "reach",
+          "startMs": 13917,
+          "endMs": 14155
+        },
+        {
+          "text": "a",
+          "startMs": 14155,
+          "endMs": 14229
+        },
+        {
+          "text": "fact,",
+          "startMs": 14229,
+          "endMs": 14842
+        },
+        {
+          "text": "something",
+          "startMs": 14979,
+          "endMs": 15267
+        },
+        {
+          "text": "you",
+          "startMs": 15267,
+          "endMs": 15367
+        },
+        {
+          "text": "can",
+          "startMs": 15367,
+          "endMs": 15492
+        },
+        {
+          "text": "point",
+          "startMs": 15492,
+          "endMs": 15767
+        },
+        {
+          "text": "to",
+          "startMs": 15767,
+          "endMs": 15867
+        },
+        {
+          "text": "rather",
+          "startMs": 15867,
+          "endMs": 16179
+        },
+        {
+          "text": "than",
+          "startMs": 16179,
+          "endMs": 16317
+        },
+        {
+          "text": "argue.",
+          "startMs": 16317,
+          "endMs": 16992
+        },
+        {
+          "text": "And",
+          "startMs": 17440,
+          "endMs": 17573
+        },
+        {
+          "text": "because",
+          "startMs": 17573,
+          "endMs": 17861
+        },
+        {
+          "text": "the",
+          "startMs": 17861,
+          "endMs": 17999
+        },
+        {
+          "text": "rule",
+          "startMs": 17999,
+          "endMs": 18286
+        },
+        {
+          "text": "never",
+          "startMs": 18286,
+          "endMs": 18599
+        },
+        {
+          "text": "changes,",
+          "startMs": 18599,
+          "endMs": 19361
+        },
+        {
+          "text": "it",
+          "startMs": 19461,
+          "endMs": 19586
+        },
+        {
+          "text": "works",
+          "startMs": 19586,
+          "endMs": 19849
+        },
+        {
+          "text": "at",
+          "startMs": 19849,
+          "endMs": 19936
+        },
+        {
+          "text": "any",
+          "startMs": 19936,
+          "endMs": 20173
+        },
+        {
+          "text": "size,",
+          "startMs": 20173,
+          "endMs": 20886
+        },
+        {
+          "text": "from",
+          "startMs": 20986,
+          "endMs": 21123
+        },
+        {
+          "text": "a",
+          "startMs": 21123,
+          "endMs": 21223
+        },
+        {
+          "text": "single",
+          "startMs": 21223,
+          "endMs": 21573
+        },
+        {
+          "text": "sentence",
+          "startMs": 21573,
+          "endMs": 22149
+        },
+        {
+          "text": "to",
+          "startMs": 22149,
+          "endMs": 22311
+        },
+        {
+          "text": "a",
+          "startMs": 22311,
+          "endMs": 22423
+        },
+        {
+          "text": "year-long",
+          "startMs": 22423,
+          "endMs": 22911
+        },
+        {
+          "text": "problem.",
+          "startMs": 22911,
+          "endMs": 23686
+        }
+      ],
+      "beats": [
+        {
+          "index": 0,
+          "text": "And here's what makes it powerful: every box is the top of its own pyramid.",
+          "startMs": 80,
+          "endMs": 4298,
+          "pauseSec": 0.6
+        },
+        {
+          "index": 1,
+          "text": "Push into any reason and you find the same shape underneath: a claim, held up by evidence. Push again, and it's the same again.",
+          "startMs": 4898,
+          "endMs": 12674,
+          "pauseSec": 0.45
+        },
+        {
+          "index": 2,
+          "text": "You stop when you reach a fact, something you can point to rather than argue.",
+          "startMs": 13124,
+          "endMs": 16839,
+          "pauseSec": 0.6
+        },
+        {
+          "index": 3,
+          "text": "And because the rule never changes, it works at any size, from a single sentence to a year-long problem.",
+          "startMs": 17440,
+          "endMs": 23482,
+          "pauseSec": 0.9
+        }
+      ]
+    },
+    "08-applications": {
+      "file": "audio/08-applications.wav",
+      "durationSec": 29.025,
+      "textHash": "2770b8c6b35f6453",
+      "words": [
+        {
+          "text": "That's",
+          "startMs": 106,
+          "endMs": 381
+        },
+        {
+          "text": "the",
+          "startMs": 381,
+          "endMs": 481
+        },
+        {
+          "text": "pyramid",
+          "startMs": 481,
+          "endMs": 993
+        },
+        {
+          "text": "used",
+          "startMs": 993,
+          "endMs": 1356
+        },
+        {
+          "text": "for",
+          "startMs": 1356,
+          "endMs": 1481
+        },
+        {
+          "text": "communicating.",
+          "startMs": 1481,
+          "endMs": 2556
+        },
+        {
+          "text": "But",
+          "startMs": 2656,
+          "endMs": 2793
+        },
+        {
+          "text": "the",
+          "startMs": 2793,
+          "endMs": 2931
+        },
+        {
+          "text": "same",
+          "startMs": 2931,
+          "endMs": 3293
+        },
+        {
+          "text": "shape",
+          "startMs": 3293,
+          "endMs": 3606
+        },
+        {
+          "text": "works",
+          "startMs": 3606,
+          "endMs": 3969
+        },
+        {
+          "text": "just",
+          "startMs": 3969,
+          "endMs": 4256
+        },
+        {
+          "text": "as",
+          "startMs": 4256,
+          "endMs": 4406
+        },
+        {
+          "text": "well",
+          "startMs": 4406,
+          "endMs": 4631
+        },
+        {
+          "text": "for",
+          "startMs": 4631,
+          "endMs": 4793
+        },
+        {
+          "text": "thinking.",
+          "startMs": 4793,
+          "endMs": 5506
+        },
+        {
+          "text": "Turn",
+          "startMs": 5945,
+          "endMs": 6232
+        },
+        {
+          "text": "every",
+          "startMs": 6232,
+          "endMs": 6545
+        },
+        {
+          "text": "box",
+          "startMs": 6545,
+          "endMs": 6882
+        },
+        {
+          "text": "into",
+          "startMs": 6882,
+          "endMs": 7058
+        },
+        {
+          "text": "a",
+          "startMs": 7058,
+          "endMs": 7120
+        },
+        {
+          "text": "question",
+          "startMs": 7120,
+          "endMs": 7870
+        },
+        {
+          "text": "and",
+          "startMs": 7870,
+          "endMs": 8008
+        },
+        {
+          "text": "you",
+          "startMs": 8008,
+          "endMs": 8095
+        },
+        {
+          "text": "have",
+          "startMs": 8095,
+          "endMs": 8258
+        },
+        {
+          "text": "an",
+          "startMs": 8258,
+          "endMs": 8382
+        },
+        {
+          "text": "issue",
+          "startMs": 8382,
+          "endMs": 8708
+        },
+        {
+          "text": "tree,",
+          "startMs": 8708,
+          "endMs": 9345
+        },
+        {
+          "text": "broken",
+          "startMs": 9508,
+          "endMs": 9945
+        },
+        {
+          "text": "down",
+          "startMs": 9945,
+          "endMs": 10345
+        },
+        {
+          "text": "until",
+          "startMs": 10345,
+          "endMs": 10658
+        },
+        {
+          "text": "each",
+          "startMs": 10658,
+          "endMs": 10958
+        },
+        {
+          "text": "piece",
+          "startMs": 10958,
+          "endMs": 11245
+        },
+        {
+          "text": "can",
+          "startMs": 11245,
+          "endMs": 11358
+        },
+        {
+          "text": "be",
+          "startMs": 11358,
+          "endMs": 11508
+        },
+        {
+          "text": "settled",
+          "startMs": 11508,
+          "endMs": 11920
+        },
+        {
+          "text": "by",
+          "startMs": 11920,
+          "endMs": 12095
+        },
+        {
+          "text": "a",
+          "startMs": 12095,
+          "endMs": 12208
+        },
+        {
+          "text": "single",
+          "startMs": 12208,
+          "endMs": 12570
+        },
+        {
+          "text": "analysis.",
+          "startMs": 12570,
+          "endMs": 13495
+        },
+        {
+          "text": "Turn",
+          "startMs": 13907,
+          "endMs": 14157
+        },
+        {
+          "text": "those",
+          "startMs": 14157,
+          "endMs": 14382
+        },
+        {
+          "text": "questions",
+          "startMs": 14382,
+          "endMs": 14920
+        },
+        {
+          "text": "into",
+          "startMs": 14920,
+          "endMs": 15144
+        },
+        {
+          "text": "claims",
+          "startMs": 15144,
+          "endMs": 15657
+        },
+        {
+          "text": "about",
+          "startMs": 15657,
+          "endMs": 15932
+        },
+        {
+          "text": "what",
+          "startMs": 15932,
+          "endMs": 16070
+        },
+        {
+          "text": "would",
+          "startMs": 16070,
+          "endMs": 16182
+        },
+        {
+          "text": "have",
+          "startMs": 16182,
+          "endMs": 16407
+        },
+        {
+          "text": "to",
+          "startMs": 16407,
+          "endMs": 16494
+        },
+        {
+          "text": "be",
+          "startMs": 16494,
+          "endMs": 16644
+        },
+        {
+          "text": "true,",
+          "startMs": 16644,
+          "endMs": 17207
+        },
+        {
+          "text": "and",
+          "startMs": 17344,
+          "endMs": 17470
+        },
+        {
+          "text": "it's",
+          "startMs": 17470,
+          "endMs": 17570
+        },
+        {
+          "text": "a",
+          "startMs": 17570,
+          "endMs": 17632
+        },
+        {
+          "text": "hypothesis",
+          "startMs": 17632,
+          "endMs": 18394
+        },
+        {
+          "text": "tree.",
+          "startMs": 18394,
+          "endMs": 19082
+        },
+        {
+          "text": "Put",
+          "startMs": 19244,
+          "endMs": 19457
+        },
+        {
+          "text": "names",
+          "startMs": 19457,
+          "endMs": 19770
+        },
+        {
+          "text": "on",
+          "startMs": 19770,
+          "endMs": 19870
+        },
+        {
+          "text": "the",
+          "startMs": 19870,
+          "endMs": 19957
+        },
+        {
+          "text": "branches,",
+          "startMs": 19957,
+          "endMs": 20757
+        },
+        {
+          "text": "and",
+          "startMs": 20857,
+          "endMs": 20970
+        },
+        {
+          "text": "it's",
+          "startMs": 20970,
+          "endMs": 21094
+        },
+        {
+          "text": "a",
+          "startMs": 21094,
+          "endMs": 21157
+        },
+        {
+          "text": "work",
+          "startMs": 21157,
+          "endMs": 21407
+        },
+        {
+          "text": "plan.",
+          "startMs": 21407,
+          "endMs": 22107
+        },
+        {
+          "text": "Minto",
+          "startMs": 22576,
+          "endMs": 23001
+        },
+        {
+          "text": "didn't",
+          "startMs": 23001,
+          "endMs": 23214
+        },
+        {
+          "text": "invent",
+          "startMs": 23214,
+          "endMs": 23601
+        },
+        {
+          "text": "breaking",
+          "startMs": 23601,
+          "endMs": 23914
+        },
+        {
+          "text": "a",
+          "startMs": 23914,
+          "endMs": 23976
+        },
+        {
+          "text": "problem",
+          "startMs": 23976,
+          "endMs": 24364
+        },
+        {
+          "text": "into",
+          "startMs": 24364,
+          "endMs": 24551
+        },
+        {
+          "text": "parts.",
+          "startMs": 24551,
+          "endMs": 25351
+        },
+        {
+          "text": "But",
+          "startMs": 25451,
+          "endMs": 25601
+        },
+        {
+          "text": "she",
+          "startMs": 25601,
+          "endMs": 25751
+        },
+        {
+          "text": "gave",
+          "startMs": 25751,
+          "endMs": 25938
+        },
+        {
+          "text": "it",
+          "startMs": 25938,
+          "endMs": 26088
+        },
+        {
+          "text": "rules,",
+          "startMs": 26088,
+          "endMs": 26676
+        },
+        {
+          "text": "a",
+          "startMs": 26776,
+          "endMs": 26888
+        },
+        {
+          "text": "test,",
+          "startMs": 26888,
+          "endMs": 27401
+        },
+        {
+          "text": "and",
+          "startMs": 27476,
+          "endMs": 27588
+        },
+        {
+          "text": "a",
+          "startMs": 27588,
+          "endMs": 27651
+        },
+        {
+          "text": "name.",
+          "startMs": 27651,
+          "endMs": 28301
+        }
+      ],
+      "beats": [
+        {
+          "index": 0,
+          "text": "That's the pyramid used for communicating. But the same shape works just as well for thinking.",
+          "startMs": 80,
+          "endMs": 5322,
+          "pauseSec": 0.6
+        },
+        {
+          "index": 1,
+          "text": "Turn every box into a question and you have an issue tree, broken down until each piece can be settled by a single analysis.",
+          "startMs": 5922,
+          "endMs": 13355,
+          "pauseSec": 0.525
+        },
+        {
+          "index": 2,
+          "text": "Turn those questions into claims about what would have to be true, and it's a hypothesis tree. Put names on the branches, and it's a work plan.",
+          "startMs": 13880,
+          "endMs": 21929,
+          "pauseSec": 0.6
+        },
+        {
+          "index": 3,
+          "text": "Minto didn't invent breaking a problem into parts. But she gave it rules, a test, and a name.",
+          "startMs": 22529,
+          "endMs": 28125,
+          "pauseSec": 0.9
+        }
+      ]
+    },
+    "09-reach": {
+      "file": "audio/09-reach.wav",
+      "durationSec": 25.361,
+      "textHash": "1a5daf43724f55b9",
+      "words": [
+        {
+          "text": "And",
+          "startMs": 82,
+          "endMs": 219
+        },
+        {
+          "text": "it",
+          "startMs": 219,
+          "endMs": 319
+        },
+        {
+          "text": "spread",
+          "startMs": 319,
+          "endMs": 732
+        },
+        {
+          "text": "wherever",
+          "startMs": 732,
+          "endMs": 1082
+        },
+        {
+          "text": "consultants",
+          "startMs": 1082,
+          "endMs": 1682
+        },
+        {
+          "text": "went.",
+          "startMs": 1682,
+          "endMs": 2257
+        },
+        {
+          "text": "The",
+          "startMs": 2721,
+          "endMs": 2796
+        },
+        {
+          "text": "book",
+          "startMs": 2796,
+          "endMs": 3009
+        },
+        {
+          "text": "has",
+          "startMs": 3009,
+          "endMs": 3171
+        },
+        {
+          "text": "been",
+          "startMs": 3171,
+          "endMs": 3333
+        },
+        {
+          "text": "in",
+          "startMs": 3333,
+          "endMs": 3471
+        },
+        {
+          "text": "print",
+          "startMs": 3471,
+          "endMs": 3771
+        },
+        {
+          "text": "for",
+          "startMs": 3771,
+          "endMs": 3946
+        },
+        {
+          "text": "forty",
+          "startMs": 3946,
+          "endMs": 4296
+        },
+        {
+          "text": "years,",
+          "startMs": 4296,
+          "endMs": 4871
+        },
+        {
+          "text": "in",
+          "startMs": 4971,
+          "endMs": 5121
+        },
+        {
+          "text": "nine",
+          "startMs": 5121,
+          "endMs": 5421
+        },
+        {
+          "text": "languages,",
+          "startMs": 5421,
+          "endMs": 6346
+        },
+        {
+          "text": "and",
+          "startMs": 6446,
+          "endMs": 6559
+        },
+        {
+          "text": "the",
+          "startMs": 6559,
+          "endMs": 6646
+        },
+        {
+          "text": "major",
+          "startMs": 6646,
+          "endMs": 6971
+        },
+        {
+          "text": "firms",
+          "startMs": 6971,
+          "endMs": 7333
+        },
+        {
+          "text": "teach",
+          "startMs": 7333,
+          "endMs": 7646
+        },
+        {
+          "text": "it",
+          "startMs": 7646,
+          "endMs": 7796
+        },
+        {
+          "text": "to",
+          "startMs": 7796,
+          "endMs": 7883
+        },
+        {
+          "text": "their",
+          "startMs": 7883,
+          "endMs": 8071
+        },
+        {
+          "text": "new",
+          "startMs": 8071,
+          "endMs": 8246
+        },
+        {
+          "text": "consultants.",
+          "startMs": 8246,
+          "endMs": 9196
+        },
+        {
+          "text": "Those",
+          "startMs": 9511,
+          "endMs": 9786
+        },
+        {
+          "text": "consultants",
+          "startMs": 9786,
+          "endMs": 10548
+        },
+        {
+          "text": "rarely",
+          "startMs": 10548,
+          "endMs": 10924
+        },
+        {
+          "text": "stay.",
+          "startMs": 10924,
+          "endMs": 11611
+        },
+        {
+          "text": "Most",
+          "startMs": 11798,
+          "endMs": 12136
+        },
+        {
+          "text": "move",
+          "startMs": 12136,
+          "endMs": 12336
+        },
+        {
+          "text": "on",
+          "startMs": 12336,
+          "endMs": 12536
+        },
+        {
+          "text": "to",
+          "startMs": 12536,
+          "endMs": 12661
+        },
+        {
+          "text": "industry",
+          "startMs": 12661,
+          "endMs": 13111
+        },
+        {
+          "text": "within",
+          "startMs": 13111,
+          "endMs": 13348
+        },
+        {
+          "text": "a",
+          "startMs": 13348,
+          "endMs": 13411
+        },
+        {
+          "text": "few",
+          "startMs": 13411,
+          "endMs": 13636
+        },
+        {
+          "text": "years,",
+          "startMs": 13636,
+          "endMs": 14236
+        },
+        {
+          "text": "and",
+          "startMs": 14336,
+          "endMs": 14448
+        },
+        {
+          "text": "they",
+          "startMs": 14448,
+          "endMs": 14586
+        },
+        {
+          "text": "take",
+          "startMs": 14586,
+          "endMs": 14836
+        },
+        {
+          "text": "the",
+          "startMs": 14836,
+          "endMs": 14936
+        },
+        {
+          "text": "pyramid",
+          "startMs": 14936,
+          "endMs": 15398
+        },
+        {
+          "text": "with",
+          "startMs": 15398,
+          "endMs": 15536
+        },
+        {
+          "text": "them.",
+          "startMs": 15536,
+          "endMs": 16061
+        },
+        {
+          "text": "Minto",
+          "startMs": 16588,
+          "endMs": 16988
+        },
+        {
+          "text": "still",
+          "startMs": 16988,
+          "endMs": 17263
+        },
+        {
+          "text": "teaches",
+          "startMs": 17263,
+          "endMs": 17600
+        },
+        {
+          "text": "it",
+          "startMs": 17600,
+          "endMs": 17676
+        },
+        {
+          "text": "herself,",
+          "startMs": 17676,
+          "endMs": 18413
+        },
+        {
+          "text": "two",
+          "startMs": 18526,
+          "endMs": 18738
+        },
+        {
+          "text": "days",
+          "startMs": 18738,
+          "endMs": 19026
+        },
+        {
+          "text": "at",
+          "startMs": 19026,
+          "endMs": 19100
+        },
+        {
+          "text": "a",
+          "startMs": 19100,
+          "endMs": 19163
+        },
+        {
+          "text": "time,",
+          "startMs": 19163,
+          "endMs": 19688
+        },
+        {
+          "text": "to",
+          "startMs": 19788,
+          "endMs": 19913
+        },
+        {
+          "text": "groups",
+          "startMs": 19913,
+          "endMs": 20226
+        },
+        {
+          "text": "of",
+          "startMs": 20226,
+          "endMs": 20300
+        },
+        {
+          "text": "about",
+          "startMs": 20300,
+          "endMs": 20526
+        },
+        {
+          "text": "a",
+          "startMs": 20526,
+          "endMs": 20588
+        },
+        {
+          "text": "dozen.",
+          "startMs": 20588,
+          "endMs": 21288
+        },
+        {
+          "text": "The",
+          "startMs": 21633,
+          "endMs": 21770
+        },
+        {
+          "text": "idea",
+          "startMs": 21770,
+          "endMs": 22183
+        },
+        {
+          "text": "is",
+          "startMs": 22183,
+          "endMs": 22320
+        },
+        {
+          "text": "simple.",
+          "startMs": 22320,
+          "endMs": 22858
+        },
+        {
+          "text": "The",
+          "startMs": 22958,
+          "endMs": 23096
+        },
+        {
+          "text": "skill",
+          "startMs": 23096,
+          "endMs": 23433
+        },
+        {
+          "text": "takes",
+          "startMs": 23433,
+          "endMs": 23733
+        },
+        {
+          "text": "practice.",
+          "startMs": 23733,
+          "endMs": 24583
+        }
+      ],
+      "beats": [
+        {
+          "index": 0,
+          "text": "And it spread wherever consultants went.",
+          "startMs": 80,
+          "endMs": 2113,
+          "pauseSec": 0.6
+        },
+        {
+          "index": 1,
+          "text": "The book has been in print for forty years, in nine languages, and the major firms teach it to their new consultants.",
+          "startMs": 2713,
+          "endMs": 9050,
+          "pauseSec": 0.45
+        },
+        {
+          "index": 2,
+          "text": "Those consultants rarely stay. Most move on to industry within a few years, and they take the pyramid with them.",
+          "startMs": 9500,
+          "endMs": 15874,
+          "pauseSec": 0.675
+        },
+        {
+          "index": 3,
+          "text": "Minto still teaches it herself, two days at a time, to groups of about a dozen.",
+          "startMs": 16549,
+          "endMs": 21107,
+          "pauseSec": 0.525
+        },
+        {
+          "index": 4,
+          "text": "The idea is simple. The skill takes practice.",
+          "startMs": 21632,
+          "endMs": 24461,
+          "pauseSec": 0.9
+        }
+      ]
+    },
+    "11-next-steps": {
+      "file": "audio/11-next-steps.wav",
+      "durationSec": 18.142,
+      "textHash": "881a2090fe6cd952",
+      "words": [
+        {
+          "text": "So",
+          "startMs": 147,
+          "endMs": 235
+        },
+        {
+          "text": "what",
+          "startMs": 235,
+          "endMs": 359
+        },
+        {
+          "text": "do",
+          "startMs": 359,
+          "endMs": 459
+        },
+        {
+          "text": "you",
+          "startMs": 459,
+          "endMs": 547
+        },
+        {
+          "text": "do",
+          "startMs": 547,
+          "endMs": 709
+        },
+        {
+          "text": "with",
+          "startMs": 709,
+          "endMs": 872
+        },
+        {
+          "text": "this?",
+          "startMs": 872,
+          "endMs": 1247
+        },
+        {
+          "text": "Three",
+          "startMs": 1359,
+          "endMs": 1622
+        },
+        {
+          "text": "things.",
+          "startMs": 1622,
+          "endMs": 2272
+        },
+        {
+          "text": "Put",
+          "startMs": 2689,
+          "endMs": 2827
+        },
+        {
+          "text": "your",
+          "startMs": 2827,
+          "endMs": 2939
+        },
+        {
+          "text": "answer",
+          "startMs": 2939,
+          "endMs": 3527
+        },
+        {
+          "text": "in",
+          "startMs": 3527,
+          "endMs": 3627
+        },
+        {
+          "text": "the",
+          "startMs": 3627,
+          "endMs": 3739
+        },
+        {
+          "text": "first",
+          "startMs": 3739,
+          "endMs": 4064
+        },
+        {
+          "text": "line",
+          "startMs": 4064,
+          "endMs": 4301
+        },
+        {
+          "text": "of",
+          "startMs": 4301,
+          "endMs": 4377
+        },
+        {
+          "text": "your",
+          "startMs": 4377,
+          "endMs": 4489
+        },
+        {
+          "text": "next",
+          "startMs": 4489,
+          "endMs": 4789
+        },
+        {
+          "text": "email.",
+          "startMs": 4789,
+          "endMs": 5439
+        },
+        {
+          "text": "Next",
+          "startMs": 5826,
+          "endMs": 6088
+        },
+        {
+          "text": "time",
+          "startMs": 6088,
+          "endMs": 6301
+        },
+        {
+          "text": "you",
+          "startMs": 6301,
+          "endMs": 6438
+        },
+        {
+          "text": "face",
+          "startMs": 6438,
+          "endMs": 6738
+        },
+        {
+          "text": "a",
+          "startMs": 6738,
+          "endMs": 6801
+        },
+        {
+          "text": "big",
+          "startMs": 6801,
+          "endMs": 7026
+        },
+        {
+          "text": "problem,",
+          "startMs": 7026,
+          "endMs": 7751
+        },
+        {
+          "text": "break",
+          "startMs": 7888,
+          "endMs": 8138
+        },
+        {
+          "text": "it",
+          "startMs": 8138,
+          "endMs": 8214
+        },
+        {
+          "text": "into",
+          "startMs": 8214,
+          "endMs": 8464
+        },
+        {
+          "text": "MECE",
+          "startMs": 8464,
+          "endMs": 8701
+        },
+        {
+          "text": "sub-problems",
+          "startMs": 8701,
+          "endMs": 9451
+        },
+        {
+          "text": "before",
+          "startMs": 9451,
+          "endMs": 9751
+        },
+        {
+          "text": "you",
+          "startMs": 9751,
+          "endMs": 9876
+        },
+        {
+          "text": "start",
+          "startMs": 9876,
+          "endMs": 10138
+        },
+        {
+          "text": "on",
+          "startMs": 10138,
+          "endMs": 10276
+        },
+        {
+          "text": "any",
+          "startMs": 10276,
+          "endMs": 10488
+        },
+        {
+          "text": "of",
+          "startMs": 10488,
+          "endMs": 10588
+        },
+        {
+          "text": "them.",
+          "startMs": 10588,
+          "endMs": 11076
+        },
+        {
+          "text": "And",
+          "startMs": 11401,
+          "endMs": 11550
+        },
+        {
+          "text": "ask",
+          "startMs": 11550,
+          "endMs": 11887
+        },
+        {
+          "text": "AI",
+          "startMs": 11887,
+          "endMs": 12325
+        },
+        {
+          "text": "to",
+          "startMs": 12325,
+          "endMs": 12425
+        },
+        {
+          "text": "help.",
+          "startMs": 12425,
+          "endMs": 12975
+        },
+        {
+          "text": "Next",
+          "startMs": 13113,
+          "endMs": 13387
+        },
+        {
+          "text": "time",
+          "startMs": 13387,
+          "endMs": 13587
+        },
+        {
+          "text": "you're",
+          "startMs": 13587,
+          "endMs": 13700
+        },
+        {
+          "text": "using",
+          "startMs": 13700,
+          "endMs": 14050
+        },
+        {
+          "text": "it,",
+          "startMs": 14050,
+          "endMs": 14150
+        },
+        {
+          "text": "just",
+          "startMs": 14200,
+          "endMs": 14425
+        },
+        {
+          "text": "ask:",
+          "startMs": 14425,
+          "endMs": 15000
+        },
+        {
+          "text": "\"How",
+          "startMs": 15200,
+          "endMs": 15375
+        },
+        {
+          "text": "would",
+          "startMs": 15375,
+          "endMs": 15550
+        },
+        {
+          "text": "Barbara",
+          "startMs": 15550,
+          "endMs": 15950
+        },
+        {
+          "text": "Minto",
+          "startMs": 15950,
+          "endMs": 16325
+        },
+        {
+          "text": "structure",
+          "startMs": 16325,
+          "endMs": 16800
+        },
+        {
+          "text": "this?\"",
+          "startMs": 16800,
+          "endMs": 17350
+        }
+      ],
+      "beats": [
+        {
+          "index": 0,
+          "text": "So what do you do with this? Three things.",
+          "startMs": 80,
+          "endMs": 2160,
+          "pauseSec": 0.525
+        },
+        {
+          "index": 1,
+          "text": "Put your answer in the first line of your next email.",
+          "startMs": 2685,
+          "endMs": 5266,
+          "pauseSec": 0.525
+        },
+        {
+          "index": 2,
+          "text": "Next time you face a big problem, break it into MECE sub-problems before you start on any of them.",
+          "startMs": 5791,
+          "endMs": 10876,
+          "pauseSec": 0.525
+        },
+        {
+          "index": 3,
+          "text": "And ask AI to help. Next time you're using it, just ask: \"How would Barbara Minto structure this?\"",
+          "startMs": 11401,
+          "endMs": 17242,
+          "pauseSec": 0.9
+        }
+      ]
+    }
+  }
+}

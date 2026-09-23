@@ -1,0 +1,13 @@
+node_modules/
+out/
+.venv/
+.remotion/
+*.log
+.claude/
+# Local planning scratch (the sanitised copies live in docs/process/)
+**/ai_docs/
+# Generated narration audio (regenerate with `npm run narration`)
+public/audio/
+# Vendored agent skills (install with `npx remotion skills add`)
+.agents/
+skills-lock.json
