@@ -30,12 +30,16 @@
   h1 { font-family: var(--display); font-weight: 600; font-size: clamp(44px, 8vw, 84px); line-height: 1; margin: 0 0 12px; letter-spacing: -0.01em; }
   .sub { color: var(--fg-soft); font-size: 18px; letter-spacing: .04em; margin: 0; }
   .frame { position: relative; margin: 32px auto 0; max-width: 720px; }
-  .frame::before { content: ""; position: absolute; inset: -14px; border: 1.5px solid var(--rule); pointer-events: none; }
-  .frame .tick { position: absolute; width: 26px; height: 26px; pointer-events: none; }
-  .frame .tick::before, .frame .tick::after { content: ""; position: absolute; background: var(--accent); }
-  .frame .tick::before { width: 26px; height: 3px; } .frame .tick::after { width: 3px; height: 26px; }
-  .frame .tl { left: -14px; top: -14px; } .frame .tr { right: -14px; top: -14px; transform: scaleX(-1); }
-  .frame .bl { left: -14px; bottom: -14px; transform: scaleY(-1); } .frame .br { right: -14px; bottom: -14px; transform: scale(-1); }
+  /* Hairline and corner ticks live in the same box, so they cannot drift apart. */
+  .frame .corners { position: absolute; inset: -14px; border: 1.5px solid var(--rule); pointer-events: none; }
+  .frame .corners i { position: absolute; width: 26px; height: 26px; }
+  .frame .corners i::before, .frame .corners i::after { content: ""; position: absolute; left: 0; top: 0; background: var(--accent); }
+  .frame .corners i::before { width: 26px; height: 3px; }
+  .frame .corners i::after { width: 3px; height: 26px; }
+  .frame .corners .tl { left: -1.5px; top: -1.5px; }
+  .frame .corners .tr { right: -1.5px; top: -1.5px; transform: scaleX(-1); }
+  .frame .corners .bl { left: -1.5px; bottom: -1.5px; transform: scaleY(-1); }
+  .frame .corners .br { right: -1.5px; bottom: -1.5px; transform: scale(-1); }
   video { display: block; width: 100%; aspect-ratio: 1 / 1; background: #000; }
   .meta { color: var(--fg-soft); font-size: 15px; text-align: center; margin: 28px 0 0; }
   .rail { display: flex; justify-content: space-between; align-items: flex-start; margin: 64px 0 8px; position: relative; }
@@ -89,7 +93,7 @@
     <p class="sub">Barbara Minto and the Pyramid Principle</p>
     <p class="sub" style="margin-top:8px"><a href="https://github.com/Ryan-J-Smith/minto-answer-first">Source on GitHub</a></p>
     <div class="frame">
-      <span class="tick tl"></span><span class="tick tr"></span><span class="tick bl"></span><span class="tick br"></span>
+      <div class="corners" aria-hidden="true"><i class="tl"></i><i class="tr"></i><i class="bl"></i><i class="br"></i></div>
       <video controls playsinline preload="metadata" poster="media/thumbnail.png">
         <source src="media/answer-first.mp4" type="video/mp4" />
         Your browser can't play this video. <a href="media/answer-first.mp4">Download it</a> instead.
